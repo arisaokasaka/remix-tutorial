@@ -1,7 +1,7 @@
 // routesディレクトリの構成でルート管理
 import { Link, useLoaderData } from "remix";
-import { getPosts } from "~/post2";
-import type { Post } from "~/post2";
+import { getPosts } from "~/post";
+import type { Post } from "~/post";
 
 /* 
   ・loaderとuseLoaderDataはリンクしている。loaderはそのコンポーネントのバックエンド「API」。
